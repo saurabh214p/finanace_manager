@@ -17,4 +17,7 @@ public interface SavingsGoalRepository extends JpaRepository<SavingsGoal, Long> 
     List<SavingsGoal> findByUser(User user);
 
     Optional<SavingsGoal> findByIdAndUser(Long id, User user);
+
+    /** Used to distinguish 404 (not found) from 403 (found but belongs to another user). */
+    boolean existsById(Long id);
 }
