@@ -1,4 +1,4 @@
-package finance.management.security;
+package finance.management.config;
 
 import finance.management.entity.Category;
 import finance.management.entity.CategoryType;

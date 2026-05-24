@@ -1,4 +1,4 @@
-package finance.management.security;
+package finance.management.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import finance.management.security.CustomUserDetailsService;
