@@ -43,3 +43,4 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default
     private List<SavingsGoal> savingsGoals = new ArrayList<>();
+}

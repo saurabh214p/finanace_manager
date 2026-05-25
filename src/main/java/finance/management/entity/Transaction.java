@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
  */
 @Entity
 @Table(name = "transactions")
-@Where(clause = "is_deleted = false")
 @Getter
 @Setter
 @NoArgsConstructor

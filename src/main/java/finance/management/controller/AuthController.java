@@ -1,5 +1,8 @@
 package finance.management.controller;
 
+import finance.management.dto.request.LoginRequest;
+import finance.management.dto.request.RegisterRequest;
+import finance.management.service.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;

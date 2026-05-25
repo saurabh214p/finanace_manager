@@ -2,6 +2,7 @@ package finance.management.controller;
 
 import finance.management.dto.request.CategoryRequest;
 import finance.management.dto.response.CategoryResponse;
+import finance.management.service.CategoryService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

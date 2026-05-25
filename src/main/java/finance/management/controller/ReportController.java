@@ -3,6 +3,7 @@ package finance.management.controller;
 import finance.management.dto.response.MonthlyReportResponse;
 import finance.management.dto.response.YearlyReportResponse;
 import finance.management.exception.BadRequestException;
+import finance.management.service.ReportService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

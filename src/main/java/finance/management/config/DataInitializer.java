@@ -3,7 +3,7 @@ package finance.management.config;
 import finance.management.entity.Category;
 import finance.management.entity.CategoryType;
 import finance.management.repository.CategoryRepository;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

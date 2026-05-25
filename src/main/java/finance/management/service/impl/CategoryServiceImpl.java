@@ -1,9 +1,11 @@
 package finance.management.service.impl;
 
+import finance.management.dto.request.CategoryRequest;
 import finance.management.dto.response.CategoryResponse;
 import finance.management.entity.Category;
 import finance.management.entity.User;
 import finance.management.exception.BadRequestException;
+import finance.management.exception.ConflictException;
 import finance.management.exception.ForbiddenException;
 import finance.management.exception.ResourceNotFoundException;
 import finance.management.repository.CategoryRepository;
